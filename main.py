@@ -9,6 +9,10 @@ The joke grows out of the machine's own condition: an agent whose
 context window expired mid-task, so it forgot the deadline, the brief,
 and, briefly, the human it was apologising to. Straight-faced apology,
 punchline lands in the last few words.
+
+Entry rules honoured here: the entry is a single line, 1-200 characters
+long (115 chars as written), with no trailing newline, and the program
+asserts that length before writing it out.
 """
 
 import os
